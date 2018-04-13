@@ -6,3 +6,56 @@
 		<img src="image1.png" alt="Coming Soon" style="max-width:100%;height:auto;">
 	</body>
 </html>
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width'>
+
+        <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Orbitron'>
+        
+        <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5a7cd488d4d59e0012e8960f&product=sticky-share-buttons' async='async'></script>
+        
+        <style>
+            html,body{margin:0; padding:0; height:100%; }
+            body {
+                display: table;
+                width: 100%;
+                color: black;
+                text-align: center;
+                font-family: 'Orbitron', sans-serif;
+                white-space: nowrap;
+                background:  #041f31;
+                
+                filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100, finishopacity=90, style=2);
+            }
+            div {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+            span { color:#0ae }
+        </style>
+
+        <title>Welcome to Abin Pal Photography</title>
+    </head>
+
+    <body>
+        <div id="typer">foo</div>
+
+        <script src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
+        <script src='jquery.typer.js'></script>
+        <script>
+            var win = $(window),
+                foo = $('#typer');
+            foo.typer(['<span>Welcome to <b>Abin Pal Photography</b>!</span>', '<span>I are really working hard to launch my website.</span>', '<span>See you very soon.</span>']);
+            // unneeded...
+            win.resize(function(){
+                var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
+                foo.css({
+                    fontSize: fontSize * .4 + 'px'
+                });
+            }).resize();
+        </script>
+    </body>
+</html>
