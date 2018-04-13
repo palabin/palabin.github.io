@@ -1,9 +1,8 @@
-## Welcome to Abin Pal Photography
-
-```json
-{
-	code: "AP_PHOTOGRAPHY_ERR_01",
-	message: "UNDER CONSTRUCTION, SEE YOU SOON!!",
-	statusCode: 404
-}
-```
+<html>
+	<head>
+		<h1>Welcome to Abin Pal Photography</h1>
+	</head>
+	<body>
+		<img src="image1.png" alt="Coming Soon" style="max-width:100%;height:auto;">
+	</body>
+</html>
