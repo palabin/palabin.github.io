@@ -40,12 +40,12 @@
         <script>
             var win = $(window),
                 foo = $('#typer');
-            foo.typer(['<span>Welcome to <b>Abin Pal Photography</b>!</span>', '<span>I are really working hard to launch my website</span>', '<span>See you very soon</span>']);
+            foo.typer(['<span>Welcome to <b>Abin Pal Photography</b>!</span>', '<span>I am really working hard to launch my website</span>', '<span>See you very soon</span>']);
             // unneeded...
             win.resize(function(){
                 var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
                 foo.css({
-                    fontSize: fontSize * .4 + 'px'
+                    fontSize: fontSize * .3 + 'px'
                 });
             }).resize();
         </script>
